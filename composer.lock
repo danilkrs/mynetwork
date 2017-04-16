@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0748f7bc2e076e7781e4369a8bb2f0f9",
+    "packages": [
+        {
+            "name": "dwoo/dwoo",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dwoo-project/dwoo.git",
+                "reference": "e91c8b21b4a8dc8dc826bcf27c799ac64c991869"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dwoo-project/dwoo/zipball/e91c8b21b4a8dc8dc826bcf27c799ac64c991869",
+                "reference": "e91c8b21b4a8dc8dc826bcf27c799ac64c991869",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.27"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "David Sanchez",
+                    "email": "david38sanchez@gmail.com"
+                }
+            ],
+            "description": "Dwoo is a PHP5 template engine which is (almost) fully compatible with Smarty templates and plugins, but is written from scratch for PHP5, and adds many features.",
+            "time": "2016-09-15T23:23:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

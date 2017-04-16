@@ -1,0 +1,50 @@
+* {
+ font-family: Ubuntu;
+}
+.form-control:focus {
+    border-color: #333 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0,0,0,.6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0,0,0,.6) !important;
+}
+button[type="submit"] {
+    background: #333 !important;
+}
+.footer {
+    height: 25px !important;
+    background: grey;
+}
+.signin-banner {
+    margin: 0 auto;
+    text-align: center;
+}
+.signin-banner > p {
+    margin: 0 auto;
+    font-size: 8vmin;
+    color: #333;
+}
+.error-block {
+    z-index: 100;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.validation-error-triangle {
+    width: 0; 
+    height: 0; 
+    margin: 0 auto;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #333;
+}
+.validation-error {
+    margin: 0 auto;
+    background: #333;
+    border-radius: 6px;
+}
+.validation-error > p{
+    margin: 0; 
+    padding: 2px;
+    color: white;
+    font-size: 12px;
+}
